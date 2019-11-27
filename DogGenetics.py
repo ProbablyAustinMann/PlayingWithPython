@@ -1,5 +1,5 @@
 import random
-
+#this is an early Software Guild project rewritten in Python
 dog_name = raw_input("What is your dog's name?\n")
 breeds = []
 for i in range(5):
