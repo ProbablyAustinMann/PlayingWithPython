@@ -1,5 +1,6 @@
 from RollDie import roll_die
 
+#this is the main controller that handles the win/lose logic
 def run_program():
     roll_count = 0
     roll_max = 0
@@ -19,5 +20,6 @@ def run_program():
             max_dollars = user_money
             roll_max = roll_count
 
+#final printout
     print("You went broke after %i rolls." % roll_count)
     print("You should have stopped at %i rolls when you had %i dollars." %(roll_max, max_dollars))
